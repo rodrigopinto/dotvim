@@ -60,6 +60,14 @@ colorscheme solarized
 " change leader key
 let mapleader=" "
 
+" CtrlP mappings for rails
+map <leader>gv :CtrlPClearCache<cr>\|:CtrlP app/views<cr>
+map <leader>gc :CtrlPClearCache<cr>\|:CtrlP app/controllers<cr>
+map <leader>gm :CtrlPClearCache<cr>\|:CtrlP app/models<cr>
+map <leader>gh :CtrlPClearCache<cr>\|:CtrlP app/helpers<cr>
+map <leader>gl :CtrlPClearCache<cr>\|:CtrlP lib<cr>
+map <leader>gp :CtrlPClearCache<cr>\|:CtrlP public<cr>
+
 " save keystrokes, so we don't need to press the Shift key
 nnoremap ; :
 
