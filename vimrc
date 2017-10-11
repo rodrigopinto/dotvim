@@ -13,8 +13,6 @@ set softtabstop=2 " size of soft tabs
 set autoindent " auto indent lines
 set smartindent " smart (language based) auto indent "
 
-" change leader key
-let mapleader=" "
 
 " Configure vim Netrw like NERDtree
 "let g:netrw_banner = 0
@@ -60,7 +58,7 @@ set background=dark
 colorscheme solarized
 
 " change leader key
-let mapleader=","
+let mapleader=" "
 
 " save keystrokes, so we don't need to press the Shift key
 nnoremap ; :
