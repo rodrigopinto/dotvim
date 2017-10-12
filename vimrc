@@ -48,8 +48,17 @@ colorscheme solarized
 " change leader key
 let mapleader=" "
 
+" save keystrokes, so we don't need to press the Shift key
+nnoremap ; :
+
 " Opens NERDTree automatically when starts.
 autocmd vimenter * NERDTree
+
+" Strip all whitespaces in all type files by default
+autocmd BufEnter * EnableStripWhitespaceOnSave
+
+" List Ctrl+P buffers
+nmap <silent> <leader>be :CtrlPBuffer<CR>
 
 " CtrlP mappings for rails
 map <leader>gv :CtrlPClearCache<cr>\|:CtrlP app/views<cr>
@@ -58,14 +67,6 @@ map <leader>gm :CtrlPClearCache<cr>\|:CtrlP app/models<cr>
 map <leader>gh :CtrlPClearCache<cr>\|:CtrlP app/helpers<cr>
 map <leader>gl :CtrlPClearCache<cr>\|:CtrlP lib<cr>
 map <leader>gp :CtrlPClearCache<cr>\|:CtrlP public<cr>
-
-" save keystrokes, so we don't need to press the Shift key
-nnoremap ; :
-
-nmap <silent> <leader>be :CtrlPBuffer<CR>
-
-" Strip all whitespaces in all type files by default
-autocmd BufEnter * EnableStripWhitespaceOnSave
 
 set autoindent
 set nu
