@@ -13,19 +13,6 @@ set softtabstop=2 " size of soft tabs
 set autoindent " auto indent lines
 set smartindent " smart (language based) auto indent "
 
-
-" Configure vim Netrw like NERDtree
-"let g:netrw_banner = 0
-"let g:netrw_liststyle = 3
-"let g:netrw_browse_split = 4
-"let g:netrw_altv = 1
-"let g:netrw_winsize = 25
-"augroup ProjectDrawer
-"  autocmd!
-"  autocmd VimEnter * :Vexplore
-"augroup END
-
-
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 " Vundle starts
@@ -45,6 +32,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'ntpeters/vim-better-whitespace' "Plugin for white space trim an so on.
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'scrooloose/nerdtree'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -59,6 +47,9 @@ colorscheme solarized
 
 " change leader key
 let mapleader=" "
+
+" Opens NERDTree automatically when starts.
+autocmd vimenter * NERDTree
 
 " CtrlP mappings for rails
 map <leader>gv :CtrlPClearCache<cr>\|:CtrlP app/views<cr>
