@@ -27,7 +27,7 @@ Plugin 'elixir-lang/vim-elixir'     " Elixir syntax
 Plugin 'vim-airline/vim-airline'    " Beautify bottom info
 Plugin 'tpope/vim-surround'	    " Vim surround
 Plugin 'kien/ctrlp.vim'		    " Fuzzy finder for files, buffer and others
-Plugin 'mileszs/ack.vim'
+Plugin 'ack.vim'
 
 Plugin 'ntpeters/vim-better-whitespace' "Plugin for white space trim an so on.
 Plugin 'jiangmiao/auto-pairs'
