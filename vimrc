@@ -67,6 +67,9 @@ map <leader>gm :CtrlPClearCache<cr>\|:CtrlP app/models<cr>
 map <leader>gh :CtrlPClearCache<cr>\|:CtrlP app/helpers<cr>
 map <leader>gl :CtrlPClearCache<cr>\|:CtrlP lib<cr>
 map <leader>gp :CtrlPClearCache<cr>\|:CtrlP public<cr>
+map <leader>gs :CtrlPClearCache<cr>\|:CtrlP spec<cr>
+
+map <leader>n :NERDTreeToggle<cr>
 
 set autoindent
 set nu
