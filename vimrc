@@ -45,6 +45,8 @@ let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
 
+let &colorcolumn=80
+
 " change leader key
 let mapleader=" "
 
