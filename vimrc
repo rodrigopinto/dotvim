@@ -73,6 +73,7 @@ map <leader>gl :CtrlPClearCache<cr>\|:CtrlP lib<cr>
 map <leader>gp :CtrlPClearCache<cr>\|:CtrlP public<cr>
 map <leader>gs :CtrlPClearCache<cr>\|:CtrlP spec<cr>
 
+map <leader>mm :NERDTreeFind<CR>
 map <leader>n :NERDTreeToggle<cr>
 
 set autoindent
