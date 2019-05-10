@@ -3,7 +3,7 @@ My vim dot files.
 
 Installation:
 
-    git clone git://github.com/rodrigopinto/dotvim.git ~/.vim
+    git clone git@github.com:rodrigopinto/dotvim.git ~/.vim
 
 Create symlinks:
 
