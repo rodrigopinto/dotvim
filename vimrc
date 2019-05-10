@@ -73,8 +73,13 @@ map <leader>gl :CtrlPClearCache<cr>\|:CtrlP lib<cr>
 map <leader>gp :CtrlPClearCache<cr>\|:CtrlP public<cr>
 map <leader>gs :CtrlPClearCache<cr>\|:CtrlP spec<cr>
 
-map <leader>mm :NERDTreeFind<CR>
+map <leader>mm :NERDTreeFind<cr>
 map <leader>n :NERDTreeToggle<cr>
+
+" Previous tab
+map <leader><left> :tabp<cr>
+" Next tab
+map <leader><right> :tabn<cr>
 
 set autoindent
 set nu
