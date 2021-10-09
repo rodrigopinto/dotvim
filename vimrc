@@ -30,6 +30,7 @@ Plugin 'scrooloose/nerdtree'
 
 " languages support, syntax, etc
 Plugin 'sheerun/vim-polyglot'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'ntpeters/vim-better-whitespace' "Plugin for white space trim an so on.
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-rails'
@@ -79,6 +80,16 @@ map <leader>n :NERDTreeToggle<cr>
 map <leader><left> :tabp<cr>
 " Next tab
 map <leader><right> :tabn<cr>
+
+" Syntastic Config
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 set autoindent
 set nu
