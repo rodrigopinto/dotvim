@@ -23,9 +23,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-rails'
-Plugin 'elixir-lang/vim-elixir'     " Elixir syntax
-Plugin 'rhysd/vim-crystal'          " Crystal syntax
-Plugin 'fatih/vim-go'               " Go support with a log of features
 Plugin 'vim-airline/vim-airline'    " Beautify bottom info
 Plugin 'tpope/vim-surround'	    " Vim surround
 Plugin 'kien/ctrlp.vim'		    " Fuzzy finder for files, buffer and others
