@@ -35,6 +35,7 @@ Plugin 'ntpeters/vim-better-whitespace' "Plugin for white space trim an so on.
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'	    " Vim surround
+Plugin 'juliosueiras/vim-terraform-completion'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
