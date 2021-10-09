@@ -21,17 +21,19 @@ call vundle#begin()
 " Vundle manage plugins
 Plugin 'VundleVim/Vundle.vim'
 
+" Vim look and feel
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'tpope/vim-rails'
 Plugin 'vim-airline/vim-airline'    " Beautify bottom info
-Plugin 'tpope/vim-surround'	    " Vim surround
 Plugin 'kien/ctrlp.vim'		    " Fuzzy finder for files, buffer and others
-Plugin 'ack.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'scrooloose/nerdtree'
 
+" languages support, syntax, etc
+Plugin 'sheerun/vim-polyglot'
 Plugin 'ntpeters/vim-better-whitespace' "Plugin for white space trim an so on.
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-surround'	    " Vim surround
 
 " All of your Plugins must be added before the following line
 call vundle#end()
