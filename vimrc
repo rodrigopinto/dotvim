@@ -27,6 +27,7 @@ Plugin 'vim-airline/vim-airline'    " Beautify bottom info
 Plugin 'kien/ctrlp.vim'		    " Fuzzy finder for files, buffer and others
 Plugin 'mileszs/ack.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdcommenter'
 
 " languages support, syntax, etc
 Plugin 'sheerun/vim-polyglot'
